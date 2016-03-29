@@ -8,10 +8,6 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=czmq
-PKG_VERSION:=1.3.3-pre
-PKG_REV:=a7cbcba3b40da5b6bb71b7c1b71fa5330c296261
-PKG_RELEASE:=1
-
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_URL:=git@github.com:zeromq/czmq.git
